@@ -10,13 +10,15 @@
 //     console.log(2 + ' ' + 'lines of code in the file,' + ' ' + 2 + ' ' + 'lines of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, 1 line of code in the file')
 // console.log([1] + ' ' + 'line of code in the file,' + ' ' + [1] + ' ' + 'line of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, no more lines of code in the file.')
 // }
-// var a= { person: 'Brock'}
-// var b= {person: 'Charlie'}
-// var c= {person: 'Cody'}
-// var d = {person:'Ronnie'}
-// var e = {person:'Matthew'}
 
 /*ONE FOR LOOP*/
+
+var a= { person: 'Brock'}
+var b= {person: 'Charlie'}
+var c= {person: 'Cody'}
+var d = {person:'Ronnie'}
+var e = {person:'Matthew'}
+
 
 function again(){
     console.log(this.person)
@@ -34,6 +36,9 @@ again.call(d)
 again.call(e)
   
 /*FAILED ATTEMPTS*/
+
+
+
 // function again(){
 //     for (var i = 99 ; i > 1; i--) {
 //     x=0, 
