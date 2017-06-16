@@ -1,39 +1,39 @@
 
 /* TWO FOR LOOPS*/
-//  var friends = ['Brock','Charlie','Cody','Ronnie','Matthew'] 
-// for(x = 0; x<friends.length; x++){
-//     console.log(friends[x])   
-//     for (i = 99; i > 2; i--){
+ var friends = ['Brock','Charlie','Cody','Ronnie','Matthew'] 
+for(x = 0; x<friends.length; x++){
+    console.log(friends[x])
+    for (i = 99; i > 2; i--){
     
-//         console.log( [i] + ' ' + 'lines of code in the file,' + ' ' + [i] + ' ' + 'lines of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out,' + ' ' + [i-1] + ' ' + 'lines of code in the file'  );       
-//     }
-//     console.log(2 + ' ' + 'lines of code in the file,' + ' ' + 2 + ' ' + 'lines of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, 1 line of code in the file')
-// console.log([1] + ' ' + 'line of code in the file,' + ' ' + [1] + ' ' + 'line of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, no more lines of code in the file.')
-// }
+        console.log( [i] + ' ' + 'lines of code in the file,' + ' ' + [i] + ' ' + 'lines of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out,' + ' ' + [i-1] + ' ' + 'lines of code in the file'  );       
+    }
+    console.log(2 + ' ' + 'lines of code in the file,' + ' ' + 2 + ' ' + 'lines of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, 1 line of code in the file')
+console.log([1] + ' ' + 'line of code in the file,' + ' ' + [1] + ' ' + 'line of code;' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, no more lines of code in the file.')
+}
 
 /*ONE FOR LOOP*/
 
-var a= { person: 'Brock'}
-var b= {person: 'Charlie'}
-var c= {person: 'Cody'}
-var d = {person:'Ronnie'}
-var e = {person:'Matthew'}
+// var a= { person: 'Brock'}
+// var b= {person: 'Charlie'}
+// var c= {person: 'Cody'}
+// var d = {person:'Ronnie'}
+// var e = {person:'Matthew'}
 
 
-function again(){
-    console.log(this.person)
-    for (var i = 99 ; i > 2; i--) {
+// function again(){
+//     console.log(this.person)
+//     for (var i = 99 ; i > 2; i--) {
     
-        console.log( [i]  + ' lines of code in the file,' +  [i] +  ' lines of code;' + ' ' + this.person + ' strikes one out, clears it all out,' + ' ' + [i-1] + ' ' + 'lines of code in the file'  );       
-}
-console.log(2 + ' ' + 'lines of code in the file,' + ' ' + 2 + ' ' + 'lines of code;' + ' ' + this.person + ' ' + 'strikes one out, clears it all out, 1 line of code in the file')
-console.log([1] + ' ' + ' line of code in the file,' + [1] + ' line of code;' + ' ' + this.person + ' strikes one out, clears it all out, no more lines of code in the file.');
-}
-again.call(a);
-again.call(b) 
-again.call(c)
-again.call(d)
-again.call(e)
+//         console.log( [i]  + ' lines of code in the file,' +  [i] +  ' lines of code;' + ' ' + this.person + ' strikes one out, clears it all out,' + ' ' + [i-1] + ' ' + 'lines of code in the file'  );       
+// }
+// console.log(2 + ' ' + 'lines of code in the file,' + ' ' + 2 + ' ' + 'lines of code;' + ' ' + this.person + ' ' + 'strikes one out, clears it all out, 1 line of code in the file')
+// console.log([1] + ' ' + ' line of code in the file,' + [1] + ' line of code;' + ' ' + this.person + ' strikes one out, clears it all out, no more lines of code in the file.');
+// }
+// again.call(a);
+// again.call(b) 
+// again.call(c)
+// again.call(d)
+// again.call(e)
   
 /*FAILED ATTEMPTS*/
 
